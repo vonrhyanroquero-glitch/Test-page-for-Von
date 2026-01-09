@@ -1,0 +1,70 @@
+body{
+	background-color: gray;
+}
+.navbar {
+	text-align: center;
+	background: white;
+	height: 100px;
+	margin-top: 10px;
+	box-shadow: 0px 6px 8px black;
+	padding-top: 10px;
+	transition: 10px;
+	width: 100%;
+	font-style: inherit;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 30px;
+
+}
+.a {
+	border: solid black;
+	padding: 15px;
+	width: 300px;
+	background: lightgray;
+	text-align: center;
+	font-style: bolder;
+	margin: 20px auto;
+}
+.contact-row {
+	display: flex;
+    justify-content: center;   /* center both boxes */
+    gap: 30px;                 /* space between them */
+    margin-top: 20px;
+}
+	
+.b,.c{
+	border: solid black;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	margin-left: 90px;
+	background-color: white;
+	border-radius: 12px;
+}
+.b h3 {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+
+ }
+ .b p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.c h3 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+
+ }
+ .c p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
